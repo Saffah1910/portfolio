@@ -1,0 +1,228 @@
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+nav {
+    display: block;
+}
+
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: #132a13;
+}
+
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+
+       background: url('./images/IMG-20210530-WA0021.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+
+
+/* about section image css */
+
+.imageAboutPage {
+    width: 100%;
+    border-radius: 20%;
+}
+
+
+/* projects section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #3a5a40;
+}
+.servicesText:hover {
+    border: 1px solid #3a5a40;
+}
+
+.card-body a{
+    background-color: #344e41; 
+    color: white;
+    border-color: black;
+}
+.card-body a:hover{
+    background-color: #a3b18a; 
+    color: black;
+    border-color: black;
+}
+
+
+/* skills */
+
+
+
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .skill-header {
+    margin-bottom: 1rem;
+  }
+  
+  .skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  
+/* contact */
+.contact {
+    margin-top: 2rem;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+  }
+  
+  .contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+  }
+
+
+  .contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset var(--primary-color);
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid ;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold-font;
+   
+  }
+  .submit-btn:hover {
+    background-color: #3a5a40;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+  }
+
+/* footer styling */
+/* #footer {
+    background-color: #808080;
+    text-align: center;
+} */
+
+.socials {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: fixed; */
+    /* right: 50%;
+    bottom: 50%; */
+    text-align: center;
+    /* font-size: 36px; */
+    cursor: pointer;
+  }
+  
+  .socicon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+
+  /* footer */
+  footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+
+/* spacing on all sections */
+#about, #projects, #portfolio, #skills, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
