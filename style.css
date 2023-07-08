@@ -1,4 +1,3 @@
-
 .fixed-top {
     position: fixed;
     top: 0;
@@ -14,14 +13,23 @@
     justify-content: space-between;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-   
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+ 
 }
 *, ::after, ::before {
     box-sizing: border-box;
 }
 nav {
     display: block;
+    /* border: solid 2px black; */
 }
+/* .ms-auto a{
+  border: solid 0.5px white;
+}
+.ms-auto a:hover{
+  background-color: green;
+} */
 
 
 /* display background color black on navbar scroll */
@@ -62,6 +70,7 @@ nav {
     width: 100%;
     border-radius: 20%;
 }
+
 
 
 /* projects section css */
@@ -129,6 +138,8 @@ nav {
   }
 
   
+
+
 /* contact */
 .contact {
     margin-top: 2rem;
